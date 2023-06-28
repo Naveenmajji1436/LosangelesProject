@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0px;
+    font-family: "Roboto";
+}
+
+
+
+@media all and (max-width:767px) {
+    .firstPageBgContainer {
+        background-image: url('https://res.cloudinary.com/ddcnkp3rw/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1687859893/1_mh5ls6.jpg');
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .first-logo {
+        width: 30px;
+        border-radius: 40px;
+    }
+
+    #first-nav-list1 {
+        font-size: 10px;
+        margin: 15px;
+        color: white;
+        font-weight: 900;
+        text-decoration: underline;
+
+    }
+
+    #first-nav-list2 {
+        font-size: 10px;
+        margin: 15px;
+        color: white;
+        font-weight: 900;
+        text-decoration: underline;
+    }
+
+
+
+    .second-logo {
+        width: 100px;
+
+    }
+
+    .historyPng {
+        width: 100px;
+    }
+
+    #second-nav-list1 {
+        color: black;
+        font-size: 10px;
+        margin: 15px;
+        font-weight: 900;
+        text-decoration: underline;
+    }
+
+    #second-nav-list2 {
+        color: black;
+        font-size: 10px;
+        margin: 15px;
+        font-weight: 900;
+        text-decoration: underline;
+    }
+
+    .secondPageBgContainer {
+        background-image: url('https://res.cloudinary.com/ddcnkp3rw/image/upload/v1687861967/2.1_qm7czk.png');
+        background-size: cover;
+        height: 93vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .secondPageHelpContainer {
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+    }
+
+    .secondPageTextContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 75%;
+    }
+
+    .secondPageText {
+        margin-left: 50px;
+        font-size: 8px;
+    }
+
+
+
+    .carousel-bg {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        background-color: rgba(65, 79, 107, 0.85);
+        bottom: 0;
+        padding: 0.5rem;
+    }
+
+    .mini_image {
+
+        width: 24%;
+    }
+
+    .thirdPageFirstContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .climbPng {
+        width: 100px;
+    }
+
+    .climbText {
+        font-size: 8px;
+    }
+
+    .thirdPageHelpContainer {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .thirdPageHeadings {
+        width: 100%;
+        background-color: rgba(70, 84, 112, 5.85);
+        bottom: 0;
+        display: flex;
+        padding-left: 20px;
+    }
+
+    .heading1 {
+        background-color: rgb(175, 182, 197);
+
+    }
+
+    .heading {
+        padding: 5px;
+        text-decoration: underline;
+        margin-left: 10px;
+
+    }
+
+    .headingText {
+        font-size: 10px;
+        font-weight: bold;
+        color: rgba(70, 84, 112, 5.85);
+    }
+
+    .mountain2 {
+        color: rgb(175, 182, 197);
+    }
+
+    .thirdpageBgContainer {
+        background-image: url('https://res.cloudinary.com/ddcnkp3rw/image/upload/v1687866212/3_xpi3gy.png');
+        background-size: cover;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .scheduleBox {
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 2px;
+        box-shadow: 20px 20px 50px grey;
+        padding: 20px;
+
+    }
+
+    .scheduleHeading {
+        color: rgba(70, 84, 112, 5.85);
+        font-weight: bold;
+        font-size: 10px;
+    }
+
+    .finalText {
+        font-size: 8px;
+    }
+
+    .thirdPageFooter {
+        width: 100%;
+        background-color: rgba(70, 84, 112, 5.85);
+        bottom: 0;
+        display: flex;
+        padding-left: 10px;
+    }
+
+    .footerContainer {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        height: 25px;
+        margin: 10px;
+    }
+
+    .finalLogo {
+        width: 20px;
+        border-radius: 40px;
+        margin-right: 5px;
+
+    }
+
+    .footerlogoName {
+        width: 40px;
+    }
+
+    .copyRight {
+        font-size: 6px;
+        font-weight: bold;
+        color: rgb(175, 182, 197);
+        margin-top: 20px;
+    }
+
+}
+
+
+
+
+
+@media all and (min-width:768px) {
+    .firstPageBgContainer {
+        background-image: url('https://res.cloudinary.com/ddcnkp3rw/image/upload/v1687933571/1_mh5ls6_c83ed7.jpg');
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .first-logo {
+        width: 30px;
+        border-radius: 40px;
+    }
+
+    #first-nav-list1 {
+        font-size: 10px;
+        margin: 15px;
+        color: white;
+        font-weight: 900;
+        text-decoration: underline;
+
+    }
+
+    #first-nav-list2 {
+        font-size: 10px;
+        margin: 15px;
+        color: white;
+        font-weight: 900;
+        text-decoration: underline;
+    }
+
+
+
+    .second-logo {
+        width: 100px;
+
+    }
+
+    #second-nav-list1 {
+        color: black;
+        font-size: 10px;
+        margin: 15px;
+        font-weight: 900;
+        text-decoration: underline;
+    }
+
+    #second-nav-list2 {
+        color: black;
+        font-size: 10px;
+        margin: 15px;
+        font-weight: 900;
+        text-decoration: underline;
+    }
+
+    .secondPageBgContainer {
+        background-image: url('https://res.cloudinary.com/ddcnkp3rw/image/upload/v1687861967/2.1_qm7czk.png');
+        background-size: cover;
+        height: 93vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .secondPageHelpContainer {
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+    }
+
+    .secondPageTextContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 75%;
+    }
+
+    .secondPageText {
+        margin-left: 75px;
+        font-size: 14px;
+    }
+
+
+
+    .carousel-bg {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        background-color: rgba(65, 79, 107, 0.85);
+        bottom: 0;
+        padding: 3rem;
+    }
+
+    .mini_image {
+
+        width: 24%;
+    }
+
+    .thirdPageFirstContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 75%;
+    }
+
+    .thirdPageHelpContainer {
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+    }
+
+    .thirdPageHeadings {
+        width: 100%;
+        background-color: rgba(70, 84, 112, 5.85);
+        bottom: 0;
+        display: flex;
+        padding-left: 120px;
+    }
+
+    .heading1 {
+        background-color: rgb(175, 182, 197);
+    }
+
+    .heading {
+        padding: 5px;
+        text-decoration: underline;
+        margin-left: 10px;
+
+    }
+
+    .headingText {
+        font-size: 25px;
+        font-weight: bold;
+        color: rgba(70, 84, 112, 5.85);
+    }
+
+    .mountain2 {
+        color: rgb(175, 182, 197);
+    }
+
+    .thirdpageBgContainer {
+        background-image: url('https://res.cloudinary.com/ddcnkp3rw/image/upload/v1687866212/3_xpi3gy.png');
+        background-size: cover;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .scheduleBox {
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 2px;
+        box-shadow: 20px 20px 50px grey;
+        padding: 70px;
+    }
+
+    .scheduleHeading {
+        color: rgba(70, 84, 112, 5.85);
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .finalText {
+        font-size: 25px;
+    }
+
+    .thirdPageFooter {
+        width: 100%;
+        background-color: rgba(70, 84, 112, 5.85);
+        bottom: 0;
+        display: flex;
+        padding-left: 120px;
+    }
+
+    .footerContainer {
+        width: 90%;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        margin: 10px;
+    }
+
+    .finalLogo {
+        width: 40px;
+        border-radius: 40px;
+    }
+
+    .copyRight {
+        font-weight: bold;
+        color: rgb(175, 182, 197);
+    }
+
+}
